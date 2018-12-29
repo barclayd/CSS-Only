@@ -32,7 +32,7 @@ body {
 
 #burger-container.open span:nth-child(4) {
     transform: rotate(45deg);
-    transform-origin: left center
+    transform-origin: right center
 }
 
 #burger-container.open span:nth-child(1) {
