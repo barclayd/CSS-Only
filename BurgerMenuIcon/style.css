@@ -30,12 +30,12 @@ body {
     opacity: 0;
 }
 
-#burger-container.open span:nth-child(1) {
-    transform: rotate(-45deg);
-    top: 36px;
-}
-
 #burger-container.open span:nth-child(4) {
     transform: rotate(45deg);
-    top: -36px;
+    transform-origin: left center
+}
+
+#burger-container.open span:nth-child(1) {
+    transform: rotate(-45deg);
+    transform-origin: right center
 }
