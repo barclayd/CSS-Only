@@ -23,4 +23,50 @@ form input {
     font-size: 20px;
     border: 0;
     color: rgb(8, 8, 8);
+    border-radius: 10px;
+}
+
+.tooltip {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 12px;
+    border-radius: 100%;
+    font-size: 20px;
+    cursor: help;
+}
+
+.tooltip::before,
+.tooltip::after {
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+    opacity: 1;
+}
+
+.tooltip::before {
+    content: "";
+    border-width: 10px 8px 0 8px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3) transparent transparent transparent;
+    margin-left: -8px;
+    top: -15px;
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    background: rgba(0, 0, 0, 0.4);
+    top: -15px;
+    font-size: 14px;
+    width: 300px;
+    margin-left: -150px;
+    padding: 14px;
+    border-radius: 10px;
+    color: #eee;
+    transform: translateY(-100%);
+    text-align: justify
 }
