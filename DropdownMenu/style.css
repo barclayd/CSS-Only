@@ -2,15 +2,18 @@ body {
     background: #eeeeee;
     font-family: arial;
     font-weight: bold;
-    color: #0d0ab8;
+    color: #517294;
     font-size: 18px;
 }
 
 .dropdown-menu {
     background: #fff;
+    position: absolute;
+    justify-self: center;
     padding: 20px;
-    border-bottom: 2px solid #0d0ab8;
+    border-bottom: 2px solid #0d4b8a;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    left: 100px;
 }
 
 .menu-content {
@@ -25,15 +28,16 @@ body {
 
 .dropdown-menu a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
 }
 
 .dropdown-menu label {
-    display: block;
+    display: flex;
     cursor: pointer;
     background: url('./img/closed.png') no-repeat left center;
-    padding: 30px 0 30px 80px;
+    padding: 35px 0 35px 80px;
+    align-self: center;
 }
 
 input#menu {
