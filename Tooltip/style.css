@@ -26,6 +26,8 @@ form input {
     border-radius: 10px;
 }
 
+/* --------- Tooltip Styles ---------- */
+
 .tooltip {
     position: relative;
     background: rgba(0, 0, 0, 0.3);
@@ -42,12 +44,6 @@ form input {
     opacity: 0;
     visibility: hidden;
     transition: all ease 0.3s;
-}
-
-.tooltip:hover::before,
-.tooltip:hover::after {
-    opacity: 1;
-    visibility: visible;
 }
 
 .tooltip::before {
@@ -70,4 +66,13 @@ form input {
     border-radius: 10px;
     color: #eee;
     text-align: justify
+}
+
+/* --------- Hover state ---------- */
+
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
 }
