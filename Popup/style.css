@@ -20,3 +20,36 @@ body {
     background: #fff;
     text-decoration: none;
 }
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+#ad .popup-content {
+    width: 500px;
+    height: 646px;
+    margin: 100px auto;
+    position: relative;
+    border: 5px solid #fff;
+}
+
+.close {
+    background: #A9A9A9;
+    border-radius: 50%;
+    color: #111;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 9px 5px 11px;
+    text-align: center;
+    border: 3px solid #A9A9A9;
+    text-decoration: none;
+    line-height: 0;
+    width: 10px;
+}
