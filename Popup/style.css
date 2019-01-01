@@ -16,7 +16,7 @@ body {
 .button {
     border: 3px solid #111;
     padding: 10px;
-    color: #111;
+    color: #ce2522;
     background: #fff;
     text-decoration: none;
 }
@@ -29,6 +29,7 @@ body {
     top: 0;
     background: rgba(0, 0, 0, 0.6);
     z-index: 2;
+    display: none;
 }
 
 #ad .popup-content {
@@ -51,5 +52,14 @@ body {
     border: 3px solid #A9A9A9;
     text-decoration: none;
     line-height: 0;
-    width: 10px;
+    width: 12px;
+    height: 1px;
+}
+
+.popup:target {
+    display: block;
+}
+
+.wrapper h1 {
+    color: #ce2522;
 }
