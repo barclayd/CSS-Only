@@ -10,9 +10,9 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 | [**Popup**](Popup/) | UI (Desktop/Tablet)     | ✅ |![Popup](https://user-images.githubusercontent.com/39765499/50573245-4bedb280-0dc8-11e9-9121-28dd86d264d5.gif)|
 | [**Sliding Panels**](SlidingPanels/) | UI   | ✅ |![Sliding Panel](https://user-images.githubusercontent.com/39765499/50638716-b2084000-0f56-11e9-9cff-af9a2e92d7dc.gif)|
 | [**Typography**](Typography/) | Text   | ⏳ ||
-| [**Broken Links Replacement**](BrokenLinks/) | UI   | ⌛️ ||
+| [**Broken Links Replacement**](BrokenLinks/) | UI   | ![Progress](http://progressed.io/bar/10?title=progress)   ||
 | [**Toggle**](Toggle/) | UI   | ⏳ ||
-| [**Progress Bar**](Progress Bar/) | UI   | ⏳ ||
+| [**Progress**](Progress Bar/) | UI   | ⏳ ||
 | [**3D Buttons**](3DButtons/) | UI   | ⏳ ||
 | [**Print Styles**](PrintStyles/) | Printing   | ⏱ ||
 | [**8-bit Mario**](8-bitMario/) | Other   | ⏱ ||
