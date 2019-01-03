@@ -1,3 +1,28 @@
+body {
+    background: rgba(85, 107, 47, 0.8);
+}
+
+.content {
+    font-family: 'Bubblegum Sans', cursive;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(100px, auto));
+    grid-gap: 25px;
+    text-align: center;
+}
+
+.content section h4 {
+    font-size: 1.9em;
+}
+
+.content section:nth-child(odd) {
+    color: white;
+}
+
+.content section:nth-child(even) {
+    color: rgba(173, 216, 230, 1);
+}
+
 .slide {
     position: relative;
     display: inline-block;
@@ -23,6 +48,32 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(173, 216, 230, 0.5);
+    background: rgba(173, 216, 230, 0.9);
     font-family: 'Bubblegum Sans', cursive;
+    color: white;
+    padding: 20px;
+    font-size: 1.6em;
+    box-sizing: border-box;
+    transition: transform 0.8s ease-in-out;
+}
+
+.slide:hover .slide-content {
+    transform: translate(0, 0)
+}
+
+/* Directions */
+.slide-top .slide-content {
+    transform: translate(0, -100%);
+}
+
+.slide-right .slide-content {
+    transform: translate(100%, 0);
+}
+
+.slide-left .slide-content {
+    transform: translate(-100%, 0);
+}
+
+.slide-bottom .slide-content {
+    transform: translate(0, 100%);
 }
