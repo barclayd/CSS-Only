@@ -12,7 +12,7 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 | [**Typography**](Typography/) | Text   | ⏳ ||
 | [**Broken Links Replacement**](BrokenLinks/) | UI   | ![Progress](http://progressed.io/bar/10?title=progress)   ||
 | [**Toggle**](Toggle/) | UI   | ⏳ ||
-| [**Progress**](Progress Bar/) | UI   | ⏳ ||
+| [**ProgressBar**](Progress Bar/) | UI   | ⏳ ||
 | [**3D Buttons**](3DButtons/) | UI   | ⏳ ||
 | [**Print Styles**](PrintStyles/) | Printing   | ⏱ ||
 | [**8-bit Mario**](8-bitMario/) | Other   | ⏱ ||
