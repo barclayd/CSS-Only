@@ -10,15 +10,14 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 | [**Popup**](Popup/) | UI (Desktop/Tablet)     | ✅ |![Popup](https://user-images.githubusercontent.com/39765499/50573245-4bedb280-0dc8-11e9-9121-28dd86d264d5.gif)|
 | [**Sliding Panels**](SlidingPanels/) | UI   | ✅ |![Sliding Panel](https://user-images.githubusercontent.com/39765499/50638716-b2084000-0f56-11e9-9cff-af9a2e92d7dc.gif)|
 | [**ProgressBar**](ProgressBar/) | UI   | ✅ | ![Progress Bars](https://user-images.githubusercontent.com/39765499/50698214-3d0f3600-103c-11e9-9812-3ed887eb2e21.gif)|
-| [**Fancy Typography**](FancyTypography/) | Text   | ⌛️ ||
+| [**Fancy Typography**](FancyTypography/) | Text   | ️✅ |<img width="480" alt="screenshot 2019-01-05 at 20 45 36" src="https://user-images.githubusercontent.com/39765499/50729042-006e3800-112b-11e9-81f5-206f34fc9b86.png">|
 | [**Broken Links Replacement**](BrokenLinks/) | UI   | ![Progress](http://progressed.io/bar/10?title=progress)   ||
 | [**Toggle**](Toggle/) | UI   | ⏳ ||
 | [**3D Buttons**](3DButtons/) | UI   | ⏳ ||
 | [**Print Styles**](PrintStyles/) | Printing   | ⏱ ||
 | [**8-bit Mario**](8-bitMario/) | Other   | ⏱ ||
+| [**3D Layering**](3DLayering/) | Desktop   | ⏱ ||
 
-
-**More CSS elements coming soon**
 
 ### How to Run
 ```
