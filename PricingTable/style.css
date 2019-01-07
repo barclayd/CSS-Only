@@ -4,7 +4,7 @@ body {
 }
 
 .pricing-table {
-    margin: 60px auto;
+    margin: 45px auto;
 }
 
 .pricing-table::after {
@@ -31,7 +31,6 @@ body {
     text-align: center;
     border-radius: 5px;
     overflow: hidden;
-
 }
 
 .pricing-header {
@@ -109,4 +108,91 @@ body {
     text-transform: uppercase;
     background-color: #333;
     color: #fff;
+}
+
+.pricing-popular {
+    margin-top: -20px;
+}
+
+.pricing-popular .pricing-header {
+    padding-top: 60px;
+}
+
+.pricing-popular .pricing-footer {
+    padding-top: 60px;
+}
+
+.pricing-popular .pricing-price {
+    color: #ff8888;
+}
+
+.pricing-popular .pricing-button {
+    background: #ff8888;
+    color: #fff;
+}
+
+.pricing-popular .pricing-button:hover {
+    background: #333;
+    color: #ff8888;
+}
+
+@media screen and (max-width: 500px) {
+    .pricing-table {
+        margin: auto;
+    }
+
+    .pricing-table>div {
+        float: none;
+        width: 100%;
+    }
+
+    .pricing-table>div:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .pricing-popular {
+        margin-top: 0;
+    }
+
+    .pricing-body {
+        max-width: 100%;
+        overflow: scroll;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-base-color: transparent;
+    }
+
+    .pricing-body ul li {
+        display: inline-block;
+        vertical-align: middle;
+
+    }
+
+    .pricing-body ul li:not(:first-child) {
+        margin-left: -5px;
+    }
+
+    .pricing-body ul li:nth-child(2n) {
+        background-color: #e8e8e8;
+    }
+
+    .pricing-footer {
+        padding-top: 0;
+    }
+
+    .pricing-popular {
+        margin: 0;
+    }
+
+    .pricing-popular .pricing-header,
+    .pricing-popular .pricing-footer {
+        padding-top: 30px;
+    }
+
+    /* .pricing-features {
+        overflow: scroll;
+        scrollbar-base-color: transparent;
+    } */
 }
