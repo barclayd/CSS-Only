@@ -1,0 +1,39 @@
+body {
+    background: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pricing-table {
+    margin: 60px auto;
+}
+
+.pricing-table::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.pricing-table>div {
+    display: block;
+    float: left;
+    width: 48%;
+    min-height: 1px;
+    background-color: #fff;
+    color: #555;
+}
+
+.pricing-table>div:not(:last-child) {
+    margin: 2%;
+
+}
+
+.pricing-block {
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.pricing-body li {
+    list-style: none;
+}
