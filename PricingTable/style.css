@@ -158,7 +158,7 @@ body {
 
     .pricing-body {
         max-width: 100%;
-        overflow: scroll;
+        overflow: hidden;
         overflow-x: auto;
         white-space: nowrap;
         scrollbar-base-color: transparent;
