@@ -1,6 +1,6 @@
 body {
     background: #eee;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .pricing-table {
@@ -34,6 +34,79 @@ body {
 
 }
 
-.pricing-body li {
+.pricing-header {
+    height: auto;
+    padding: 30px 20px 40px;
+    text-transform: uppercase;
+}
+
+.pricing-header .pricing-heading {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.pricing-price {
+    color: #777;
+}
+
+.pricing-price>span {
+    display: inline-block;
+}
+
+.pricing-price__currency {
+    margin-top: 10px;
+    vertical-align: top;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.6;
+}
+
+.pricing-price__value {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.pricing-price__duration {
+    margin-top: 10px;
+    vertical-align: bottom;
+    font-size: 1.4rem;
+    line-height: 1;
+    opacity: 0.6;
+}
+
+.pricing-body ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-body ul li {
+    display: block;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.pricing-body ul li:nth-child(2n) {
+    background-color: #fff;
+}
+
+.pricing-body ul li:nth-child(2n + 1) {
+    background-color: #f8f8f8f8;
+}
+
+.pricing-footer {
+    padding: 40px 0 0;
+}
+
+.pricing-button,
+.pricing-button:link,
+.pricing-button:visited {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #333;
+    color: #fff;
 }
