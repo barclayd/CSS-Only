@@ -19,6 +19,7 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 | [**8-bit Mario**](8-bitMario/) | Other   | ⏱ ||
 | [**3D Layering**](3DLayering/) | Desktop   | ⏱ ||
 | [**Pyramid**](Pyramid/) | UI (Desktop)   | ⏱ ||
+| [**CoffeeCup**](CoffeeCup/) | UI   | ⏱ ||
 
 
 ### How to Run
