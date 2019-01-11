@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 25%;
+}
+
+.spinner {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    animation: loading 1s steps(8, end) infinite;
+}
+
+.spinner span {
+    display: block;
+    transition: transform 1s;
+    position: absolute;
+    left: 32%;
+    transform-origin: center 50px;
+
+    /* Tapezoids - ideally want them to be segments of a circle */
+    border-top: 15px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    height: 0;
+    width: 36px;
+
+}
+
+.spinner span:nth-child(1) {
+    opacity: 0.125;
+}
+
+.spinner span:nth-child(2) {
+    transform: rotate(45deg);
+    opacity: 0.25;
+}
+
+.spinner span:nth-child(3) {
+    transform: rotate(90deg);
+    opacity: 0.375;
+}
+
+.spinner span:nth-child(4) {
+    transform: rotate(135deg);
+    opacity: 0.5;
+}
+
+.spinner span:nth-child(5) {
+    transform: rotate(180deg);
+    opacity: 0.625;
+}
+
+.spinner span:nth-child(6) {
+    transform: rotate(225deg);
+    opacity: 0.75;
+}
+
+.spinner span:nth-child(7) {
+    transform: rotate(270deg);
+    opacity: 0.875;
+}
+
+.spinner span:nth-child(8) {
+    transform: rotate(315deg);
+    opacity: 1;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
