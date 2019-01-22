@@ -47,16 +47,16 @@ body {
     top: 12px;
 }
 
-.tick:after {
+.check:after {
     content: "✔";
     left: 23px;
-    top: 16px;
+    top: 18px;
 }
 
 .cross:after {
     content: "✖";
     left: 23px;
-    top: 18px;
+    top: 19px;
 }
 
 .recycle:after {
@@ -75,4 +75,40 @@ body {
     content: '⎈';
     left: 20px;
     top: 17px;
+}
+
+.button:hover {
+    background-image: -webkit-linear-gradient(top, #fff, #f4f1ee);
+    background-image: linear-gradient(top, #fff, #f4f1ee);
+    color: #0088cc;
+}
+
+.star:hover:after {
+    color: #FFD700;
+    text-shadow: 0px 0px 6px #DAA520;
+}
+
+.check:hover:after {
+    color: #83d244;
+    text-shadow: 0px 0px 6px #83d244;
+}
+
+.cross:hover:after {
+    color: #eb2f2f;
+    text-shadow: 0px 0px 6px #eb2f2f;
+}
+
+.recycle:hover:after {
+    color: #026928;
+    text-shadow: 0px 0px 6px #055723;
+}
+
+.moon:hover:after {
+    color: rgb(154, 81, 185);
+    text-shadow: 0px 0px 6px rgb(151, 69, 187);
+}
+
+.ship-wheel:hover:after {
+    color: #006994;
+    text-shadow: 0px 0px 6px #07516e;
 }
