@@ -27,3 +27,52 @@ body {
     width: 70px;
     transition: all .1s linear;
 }
+
+.button:after {
+    color: #e9e6e4;
+    content: "";
+    display: block;
+    font-size: 30px;
+    height: 30px;
+    text-decoration: none;
+    text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+    position: absolute;
+    width: 30px;
+}
+
+
+.star:after {
+    content: "★";
+    left: 19px;
+    top: 12px;
+}
+
+.tick:after {
+    content: "✔";
+    left: 23px;
+    top: 16px;
+}
+
+.cross:after {
+    content: "✖";
+    left: 23px;
+    top: 18px;
+}
+
+.recycle:after {
+    content: "♻︎";
+    left: 20px;
+    top: 14px;
+}
+
+.moon:after {
+    content: '☾';
+    left: 22px;
+    top: 16px;
+}
+
+.ship-wheel:after {
+    content: '⎈';
+    left: 20px;
+    top: 17px;
+}
