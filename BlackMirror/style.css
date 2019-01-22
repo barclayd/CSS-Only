@@ -33,7 +33,7 @@ main {
     left: 32%;
     transform-origin: center 50px;
 
-    /* Tapezoids - ideally want them to be segments of a circle */
+    /* Trapezoids - ideally want them to be segments of a circle */
     border-top: 15px solid #fff;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;

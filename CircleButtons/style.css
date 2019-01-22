@@ -1,0 +1,29 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: -webkit-linear-gradient(top, #edecec, #cecbc9);
+    background-image: linear-gradient(top, #edecec, #cecbc9);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.button {
+    background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+    background-image: linear-gradient(top, #f4f1ee, #fff);
+    border-radius: 100%;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204, 198, 197, .5);
+    float: left;
+    height: 70px;
+    margin: 0 30px 30px 0;
+    position: relative;
+    width: 70px;
+    transition: all .1s linear;
+}
