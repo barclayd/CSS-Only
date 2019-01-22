@@ -112,3 +112,14 @@ body {
     color: #006994;
     text-shadow: 0px 0px 6px #07516e;
 }
+
+.button:active {
+    background-image: -webkit-linear-gradient(top, #efedec, #f7f4f4);
+    background-image: linear-gradient(top, #efedec, #f7f4f4);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .4), inset 0px -3px 1px 1px rgba(204, 198, 197, .5);
+}
+
+.button:active:after {
+    color: #dbd2d2;
+    text-shadow: 0px -1px 1px #bdb5b4, 0px 1px 1px white;
+}
