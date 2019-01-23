@@ -16,6 +16,7 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 | [**Spinners**](Spinners/) | UI   | ✅ |![Spinners](https://user-images.githubusercontent.com/39765499/51032968-b73e3e00-1599-11e9-967f-0f66c5348de9.gif)|
 | [**Black Mirror Loading**](BlackMirror/) | Themed UI elements   | ⌛️ |![Black Mirror](https://user-images.githubusercontent.com/39765499/51034265-2158e200-159e-11e9-8901-3f64ac7d36fa.gif)|
 | [**Circle Buttons**](CircleButtons/) | UI   | ✅️ |![Circle Buttons](https://user-images.githubusercontent.com/39765499/51543110-b9838080-1e54-11e9-932a-de2e81818874.gif)|
+| [**Switches**](SwitchToggle/) | UI   | ⌛️ ||
 | [**3D Layering**](3DLayering/) | Desktop   | ⌛️ ||
 | [**3D Buttons**](3DButtons/) | UI   | ⏳ ||
 | [**Print Styles**](PrintStyles/) | Printing | ⏳ ||

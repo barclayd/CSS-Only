@@ -1,0 +1,15 @@
+body {
+    background: #eee;
+    text-align: center;
+    padding: 85px 0;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 60px;
+    background-color: #bbb;
+    border-radius: 4px;
+    text-align: center;
+}
