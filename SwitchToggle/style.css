@@ -7,11 +7,12 @@ body {
 .toggle {
     position: relative;
     display: inline-block;
-    width: 40px;
-    height: 60px;
+    width: 60px;
+    height: 90px;
     background-color: #bbb;
     border-radius: 4px;
     text-align: center;
+    margin-right: 10px;
 }
 
 .toggle input {
@@ -37,7 +38,7 @@ body {
     right: 1px;
     bottom: 1px;
     border-radius: 3px;
-    font: normal 11px Arial, Sans-Serif;
+    font: normal 18px Arial, Sans-Serif;
     color: rgb(97, 96, 96);
     text-shadow: 0 1px 0 white;
     cursor: text;
@@ -53,7 +54,7 @@ body {
     position: absolute;
     right: 0;
     left: 0;
-    top: 6px;
+    top: 10px;
     z-index: 4;
 }
 
@@ -62,7 +63,7 @@ body {
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 11px;
+    bottom: 10px;
     text-shadow: 0 1px 0 white;
     color: rgb(97, 96, 96);
 }
