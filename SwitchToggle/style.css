@@ -66,3 +66,23 @@ body {
     text-shadow: 0 1px 0 white;
     color: rgb(97, 96, 96);
 }
+
+.toggle input:checked+label {
+    background-image: -webkit-linear-gradient(top, #eee 0%, #ccc 50%, #fff 50%, #eee 100%);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4),
+        inset 0 1px 7px -1px #ccc,
+        inset 0 5px 1px #fafafa,
+        inset 0 6px 0 white;
+}
+
+.toggle input:checked+label:before {
+    z-index: 1;
+    top: 11px;
+}
+
+.toggle input:checked+label:after {
+    bottom: 9px;
+    color: #aaa;
+    text-shadow: none;
+    z-index: 4;
+}
