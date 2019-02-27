@@ -23,6 +23,7 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 | [**Print Styles**](PrintStyles/) | Printing | ⏳ ||
 | [**8-bit Mario**](8-bitMario/) | Other   | ⏱ ||
 | [**Pyramid**](Pyramid/) | UI (Desktop)   | ⏱ ||
+| [**Pacman**](Pacman/) | Other   | ⏱ ||
 | [**CoffeeCup**](CoffeeCup/) | UI   | ⏱ ||
 
 
