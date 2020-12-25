@@ -15,20 +15,21 @@ body {
   background-size: 50px 50px;
   position: relative;
   margin: 0 auto;
+  width: 400px;
 }
 
 .box {
-  width: 400px;
   height: 250px;
 }
 
 .lid {
-  width: 400px;
   height: 70px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
   z-index: 1;
-  padding: 0 2px;
   background-color: rgb(216, 52, 52);
+  transition: top ease-out 0.5s, left ease-out 0.5s, transform ease-out 0.5s;
 }
 
 .box span,
@@ -45,7 +46,8 @@ body {
   top: 80px;
 }
 
-.box span:last-child, .lid span {
+.box span:last-child,
+.lid span {
   position: relative;
   width: 60px;
   height: 100%;
@@ -53,7 +55,7 @@ body {
 }
 
 .lid span {
-  right: 2px;
+  /*right: 2px;*/
 }
 
 .promo-code {
@@ -63,6 +65,7 @@ body {
   position: relative;
   top: 10px;
   height: 0;
+  transition: all ease-out 0.7s;
 }
 
 .promo-code > * {
@@ -75,4 +78,14 @@ body {
 
 .promo-code h2 {
   font-size: 40px;
+}
+
+.present:hover .lid {
+  top: -100px;
+  transform: rotateZ(10deg);
+  left: 10px;
+}
+
+.present:hover .promo-code {
+  top: -80px;
 }
