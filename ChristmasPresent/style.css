@@ -10,7 +10,7 @@ body {
 
 .box,
 .lid {
-  background: radial-gradient(white 15%, transparent 15.1%), rgb(240, 58, 58);
+  background: radial-gradient(#ffffff 15%, transparent 15.1%), rgb(240, 58, 58);
   background-position: 0 0, 25px 25px;
   background-size: 50px 50px;
   position: relative;
@@ -20,4 +20,59 @@ body {
 .box {
   width: 400px;
   height: 250px;
+}
+
+.lid {
+  width: 400px;
+  height: 70px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0 2px;
+  background-color: rgb(216, 52, 52);
+}
+
+.box span,
+.lid span {
+  position: absolute;
+  display: block;
+  background: rgba(235, 199, 0, 0.8);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.box span:first-child {
+  width: 100%;
+  height: 60px;
+  top: 80px;
+}
+
+.box span:last-child, .lid span {
+  position: relative;
+  width: 60px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.lid span {
+  right: 2px;
+}
+
+.promo-code {
+  color: #ffffff;
+  font-family: Baskerville, serif;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  height: 0;
+}
+
+.promo-code > * {
+  margin: 0;
+}
+
+.promo-code p {
+  font-size: 24px;
+}
+
+.promo-code h2 {
+  font-size: 40px;
 }
