@@ -1,0 +1,23 @@
+body {
+  background: #333333;
+  padding-top: 150px;
+}
+
+.present {
+  width: 401px;
+  margin: 0 auto;
+}
+
+.box,
+.lid {
+  background: radial-gradient(white 15%, transparent 15.1%), rgb(240, 58, 58);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.box {
+  width: 400px;
+  height: 250px;
+}
