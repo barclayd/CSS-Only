@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Star Wars';
+  src: url('./star_wars.ttf');
+}
+@font-face {
+  font-family: 'News Gothic';
+  src: url('./news_gothic.otf');
+}
+
+body {
+  font-family: 'News Gothic', sans-serif;
+  background: #000000;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.scroll-text {
+  color: #ffe81f;
+  font-size: 3vw;
+  line-height: 1.5em;
+  text-align: justify;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.text-wrapper {
+  margin-top: 40px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Star Wars', sans-serif;
+}
