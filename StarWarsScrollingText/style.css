@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Star Wars';
+  src: url('./star_wars_outline.ttf');
+}
+@font-face {
+  font-family: 'News Gothic';
+  src: url('./news_gothic.otf');
+}
+
+body {
+  font-family: 'News Gothic', sans-serif;
+  background: #000000;
+  overflow: hidden;
+  margin: 50% 0 0 0;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(180deg, #000000 65%, rgba(0, 0, 0, 0) 100%);
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  perspective: 450px;
+}
+
+.scroll-text {
+  color: #ffe81f;
+  font-size: 3vw;
+  line-height: 1.5em;
+  text-align: justify;
+  letter-spacing: 2px;
+  position: relative;
+  animation: scroll 90s linear forwards;
+}
+
+.text-wrapper {
+  margin-top: 40px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Star Wars', sans-serif;
+}
+
+.title {
+  color: rgb(232, 148, 8);
+}
+
+.title > div {
+  text-align: center;
+  font-family: 'Star Wars', sans-serif;
+  font-size: 5vw;
+}
+
+.episode {
+  transform: scale(1, 2);
+}
+
+@keyframes scroll {
+  from {
+    top: 0;
+    transform: translateZ(0) rotateX(20deg);
+  }
+  to {
+    top: -4000px;
+    transform: translateZ(-2500px) rotateX(21deg);
+  }
+}
+
+audio {
+  position: absolute;
+  top: 0;
+}
