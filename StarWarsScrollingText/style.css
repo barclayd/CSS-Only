@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Star Wars';
-  src: url('./star_wars.ttf');
+  src: url('./star_wars_outline.ttf');
 }
 @font-face {
   font-family: 'News Gothic';
@@ -11,6 +11,8 @@ body {
   font-family: 'News Gothic', sans-serif;
   background: #000000;
   overflow: hidden;
+  margin: 50% 0 0 0;
+  position: relative;
 }
 
 .wrapper {
@@ -18,6 +20,7 @@ body {
   height: 100%;
   width: 60%;
   margin: 0 auto;
+  perspective: 450px;
 }
 
 .scroll-text {
@@ -27,6 +30,7 @@ body {
   text-align: justify;
   letter-spacing: 2px;
   position: relative;
+  animation: scroll 90s linear forwards;
 }
 
 .text-wrapper {
@@ -41,4 +45,34 @@ h3 {
 
 h1 {
   font-family: 'Star Wars', sans-serif;
+}
+
+.title {
+  color: rgb(232, 148, 8);
+}
+
+.title > div {
+  text-align: center;
+  font-family: 'Star Wars', sans-serif;
+  font-size: 5vw;
+}
+
+.episode {
+  transform: scale(1, 2);
+}
+
+@keyframes scroll {
+  from {
+    top: 0;
+    transform: translateZ(0) rotateX(20deg);
+  }
+  to {
+    top: -4000px;
+    transform: translateZ(-2500px) rotateX(21deg);
+  }
+}
+
+audio {
+  position: absolute;
+  top: 0;
 }
