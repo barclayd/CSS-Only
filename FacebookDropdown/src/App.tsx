@@ -1,4 +1,3 @@
-import './App.css';
 import { NavBar } from './components/NavBar';
 import { NavBarItem } from './components/NavBarItem';
 import { ReactComponent as PlusIcon } from './icons/plus.svg';
