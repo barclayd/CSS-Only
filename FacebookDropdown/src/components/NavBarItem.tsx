@@ -1,13 +1,19 @@
-import { FC, FunctionComponent, SVGProps } from 'react';
+import { FC, useState } from 'react';
+import { SVGIcon } from '../types/icon';
 
 interface NavItemProps {
-  Icon: FunctionComponent<SVGProps<SVGSVGElement>>;
+  icon: SVGIcon;
 }
 
-export const NavBarItem: FC<NavItemProps> = ({ Icon }) => (
-  <li className="nav-item">
-    <a href="#" className="icon-button">
-      <Icon />
-    </a>
-  </li>
-);
+export const NavBarItem: FC<NavItemProps> = ({ icon: Icon, children }) => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <li className="nav-item">
+      <div className="icon-button" onClick={() => setOpen(!open)}>
+        <Icon />
+        {open && children}
+      </div>
+    </li>
+  );
+};
