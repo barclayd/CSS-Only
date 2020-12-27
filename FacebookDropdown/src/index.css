@@ -112,6 +112,7 @@ svg {
 
 .menu-item:hover {
   background-color: #525357;
+  cursor: pointer;
 }
 
 .icon-right {
