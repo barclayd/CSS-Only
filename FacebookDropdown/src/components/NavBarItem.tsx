@@ -12,8 +12,8 @@ export const NavBarItem: FC<NavItemProps> = ({ icon: Icon, children }) => {
     <li className="nav-item">
       <div className="icon-button" onClick={() => setOpen(!open)}>
         <Icon />
-        {open && children}
       </div>
+      {open && children}
     </li>
   );
 };
