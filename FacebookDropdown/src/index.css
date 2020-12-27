@@ -91,6 +91,7 @@ svg {
   border-radius: var(--border-radius);
   padding: 1rem;
   overflow: hidden;
+  transition: height var(--speed) ease;
 }
 
 .menu-item {
@@ -100,6 +101,7 @@ svg {
   border-radius: var(--border-radius);
   transition: background var(--speed);
   padding: 0.5rem;
+  cursor: pointer;
 }
 
 .link.menu-item > .icon-button {
@@ -112,7 +114,6 @@ svg {
 
 .menu-item:hover {
   background-color: #525357;
-  cursor: pointer;
 }
 
 .icon-right {

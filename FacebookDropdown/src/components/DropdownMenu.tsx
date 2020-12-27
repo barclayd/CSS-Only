@@ -9,6 +9,7 @@ import { ReactComponent as LogoutIcon } from '../icons/logout.svg';
 import { ReactComponent as HistoryIcon } from '../icons/history.svg';
 import { ReactComponent as NewsIcon } from '../icons/news.svg';
 import { ReactComponent as GlobeIcon } from '../icons/globe.svg';
+import { ReactComponent as SizeIcon } from '../icons/size.svg';
 import { Transition } from './Transition';
 
 export enum DropdownMenuOption {
@@ -21,16 +22,22 @@ export const DropdownMenu: FC = () => {
   const [activeMenu, setActiveMenu] = useState<DropdownMenuOption>(
     DropdownMenuOption.main,
   );
+  const [menuHeight, setMenuHeight] = useState<number | undefined>(undefined);
+
+  const calculateMenuHeight = (element: HTMLElement) => {
+    setMenuHeight(element.offsetHeight);
+  };
 
   const onMenuItemClick = (menu: DropdownMenuOption) => {
     setActiveMenu(menu);
   };
 
   return (
-    <div className="dropdown">
+    <div className="dropdown" style={menuHeight ? { height: menuHeight } : {}}>
       <Transition
         active={activeMenu === DropdownMenuOption.main}
         className="menu-primary"
+        onEnter={calculateMenuHeight}
       >
         <DropdownMenuItem
           leftIcon={MoonIcon}
@@ -54,7 +61,10 @@ export const DropdownMenu: FC = () => {
         </DropdownMenuItem>
       </Transition>
 
-      <Transition active={activeMenu === DropdownMenuOption.settings}>
+      <Transition
+        active={activeMenu === DropdownMenuOption.settings}
+        onEnter={calculateMenuHeight}
+      >
         <DropdownMenuItem
           leftIcon={ArrowIcon}
           onClick={() => onMenuItemClick(DropdownMenuOption.main)}
@@ -63,6 +73,18 @@ export const DropdownMenu: FC = () => {
         <DropdownMenuItem leftIcon={HistoryIcon}>Activity</DropdownMenuItem>
         <DropdownMenuItem leftIcon={NewsIcon}>News Feed</DropdownMenuItem>
         <DropdownMenuItem leftIcon={GlobeIcon}>Language</DropdownMenuItem>
+      </Transition>
+
+      <Transition
+        active={activeMenu === DropdownMenuOption.theme}
+        onEnter={calculateMenuHeight}
+      >
+        <DropdownMenuItem
+          leftIcon={ArrowIcon}
+          onClick={() => onMenuItemClick(DropdownMenuOption.main)}
+        />
+        <DropdownMenuItem leftIcon={MoonIcon}>Dark Mode</DropdownMenuItem>
+        <DropdownMenuItem leftIcon={SizeIcon}>Compact Mode</DropdownMenuItem>
       </Transition>
     </div>
   );
