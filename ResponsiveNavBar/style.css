@@ -1,0 +1,40 @@
+:root {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --nav-bar-width: 5rem;
+}
+
+body {
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+main {
+  margin-left: var(--nav-bar-width);
+  padding: 1rem;
+}
+
+.navbar {
+  width: var(--nav-bar-width);
+  height: 100vh;
+  position: fixed;
+  background: var(--bg-primary);
+}
