@@ -8,6 +8,7 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 |       [**Christmas Present**](ChristmasPresent/)       |      UI (Desktop)      |  ✅   |                     ![Christmas Present](https://user-images.githubusercontent.com/39765499/103143413-47d1a280-470d-11eb-91fb-7365f9bf3726.gif)                      |
 | [**Star Wars Scrolling Text**](StarWarsScrollingText/) |           UI           |  ✅   |                  ![Star Wars Scrolling Text](https://user-images.githubusercontent.com/39765499/103156598-07703400-47a2-11eb-8d3b-4d41a11a4acd.gif)                  |
 |      [**FacebookDropdown** \*](FacebookDropdown/)      |           UI           |  ✅   |                     ![Facebook Dropdown](https://user-images.githubusercontent.com/39765499/103175099-73fd3880-485f-11eb-95ef-c77ff83f1181.gif)                      |
+|      [**Responsive Nav Bar**](ResponsiveNavBar/)       |    UI (Responsive)     |  ✅   |                     ![Responsive Nav Bar](https://user-images.githubusercontent.com/39765499/103234471-a8dcbe80-4937-11eb-941a-4ce9655f25c9.gif)                     |
 |                [**Tooltip**](Tooltip/)                 |      UI (Desktop)      |  ✅   |                           ![Tooltip](https://user-images.githubusercontent.com/39765499/50543323-2d6f9780-0bcd-11e9-8fd0-b6fac0a17558.gif)                           |
 |           [**Dropdown Menu**](DropdownMenu/)           |           UI           |  ✅   |                        ![Dropdown Menu](https://user-images.githubusercontent.com/39765499/50563689-f3121180-0d16-11e9-874f-4e9c89b693e7.gif)                        |
 |                  [**Popup**](Popup/)                   |  UI (Desktop/Tablet)   |  ✅   |                            ![Popup](https://user-images.githubusercontent.com/39765499/50573245-4bedb280-0dc8-11e9-9121-28dd86d264d5.gif)                            |
@@ -32,7 +33,7 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 ### How to Run
 
 ```
-$ git clone https://github.com/barclayd/CSS-Only.git
+git clone https://github.com/barclayd/CSS-Only.git
 ```
 
 Select a folder and copy over html and css files with any image files used.

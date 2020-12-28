@@ -74,7 +74,7 @@ main {
   color: #3195b7;
 }
 
-.nav-link:hover .svg-logo {
+.navbar-nav:hover > .logo > a > svg {
   transform: rotate(-180deg);
 }
 
