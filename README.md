@@ -22,7 +22,7 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 |          [**Circle Buttons**](CircleButtons/)          |          UI           |  ✅️  |                       ![Circle Buttons](https://user-images.githubusercontent.com/39765499/51543110-b9838080-1e54-11e9-932a-de2e81818874.gif)                        |
 |             [**Switches**](SwitchToggle/)              |          UI           |  ✅   |                          ![Switches](https://user-images.githubusercontent.com/39765499/51645532-a7950100-1f6c-11e9-833d-c2bced07a2ac.gif)                           |
 |             [**3D Layering**](3DLayering/)             |        Desktop        |  ⌛️  |                                                                                                                                                                      |
-|             [**8-bit Mario**](8-bitMario/)             |          Fun          |   ⏱   |                                                                                                                                                                      |
+|               [**8-bit Mario**](Mario/)                |          Fun          |  ✅   |                           ![Mario](https://user-images.githubusercontent.com/39765499/103306493-96c95180-4a05-11eb-8762-89fdc0501847.gif)                            |
 |                 [**Pacman**](Pacman/)                  |          Fun          |   ⏱   |                                                                                                                                                                      |
 
 ### How to Run
