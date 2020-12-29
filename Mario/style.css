@@ -1,0 +1,26 @@
+:root {
+  --hat: red;
+  --shoes: brown;
+  --hair: #b85233;
+  --skin: #ffc966;
+  --eyes: #000000;
+  --moustache: #000000;
+  --top: #cc0000;
+  --overall: blue;
+  --overall-button: yellow;
+}
+
+.mario-container {
+  display: inline-block;
+  position: relative;
+  margin: 80px auto;
+  width: 16em;
+  height: 16em;
+}
+
+.mario {
+  display: block;
+  width: 1em;
+  height: 1em;
+  background: transparent;
+}
