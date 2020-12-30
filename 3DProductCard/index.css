@@ -39,6 +39,7 @@ body {
 .shoe img {
   width: 20rem;
   z-index: 2;
+  transition: all 0.75s ease-in-out;
 }
 
 .circle {
@@ -51,11 +52,13 @@ body {
   );
   position: absolute;
   border-radius: 50%;
+  z-index: 1;
 }
 
 .info h1 {
   font-size: 3rem;
   color: #313131;
+  transition: all 750ms ease-out;
 }
 
 .info h3 {
@@ -63,11 +66,13 @@ body {
   padding: 2rem 0;
   color: #7f7f7f;
   font-weight: 300;
+  transition: all 750ms ease-out;
 }
 
 .sizes {
   display: flex;
   justify-content: space-between;
+  transition: all 0.75s ease-out;
 }
 
 .sizes button {
@@ -88,16 +93,17 @@ button.active, button:hover {
 
 .purchase {
   margin-top: 5rem;
+  transition: all 0.75s ease-out;
 }
 
 .purchase button {
   width: 100%;
   padding: 1rem 0;
-  background: #313131;
+  background: rgba(245, 70, 66, 0.85);
   border: none;
   color: #ffffff;
   cursor: pointer;
   border-radius: 30px;
-  font-weight: 500;
+  font-weight: 600;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
