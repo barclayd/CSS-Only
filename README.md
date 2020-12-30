@@ -1,6 +1,6 @@
 # CSS Only
 
-Collection of CSS Only hacks for modern-looking, animated UI elements perfect for responsive web-apps.
+Collection of (nearly) pure CSS hacks for modern-looking, animated UI elements perfect for responsive web-apps.
 
 |                          Hack                          |         Theme         | Done? |                                                                                 Demo                                                                                 |
 | :----------------------------------------------------: | :-------------------: | :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -21,9 +21,11 @@ Collection of CSS Only hacks for modern-looking, animated UI elements perfect fo
 |        [**Black Mirror Loading**](BlackMirror/)        |  Themed UI elements   |  ✅️  |                        ![Black Mirror](https://user-images.githubusercontent.com/39765499/51034265-2158e200-159e-11e9-8901-3f64ac7d36fa.gif)                         |
 |          [**Circle Buttons**](CircleButtons/)          |          UI           |  ✅️  |                       ![Circle Buttons](https://user-images.githubusercontent.com/39765499/51543110-b9838080-1e54-11e9-932a-de2e81818874.gif)                        |
 |             [**Switches**](SwitchToggle/)              |          UI           |  ✅   |                          ![Switches](https://user-images.githubusercontent.com/39765499/51645532-a7950100-1f6c-11e9-833d-c2bced07a2ac.gif)                           |
-|         [**3D Product Card**](3DProductCard/)          |        Desktop        |  ⌛️  |                                                                                                                                                                      |
+|         [**3D Product Card**](3DProductCard/)          |        Desktop        |  ✅️  |                         ![3D Product](https://user-images.githubusercontent.com/39765499/103351207-6089e180-4a9a-11eb-98e8-ec1beca88561.gif)                         |
 |               [**8-bit Mario**](Mario/)                |          Fun          |  ✅   |                           ![Mario](https://user-images.githubusercontent.com/39765499/103306493-96c95180-4a05-11eb-8762-89fdc0501847.gif)                            |
 |                 [**Pacman**](Pacman/)                  |          Fun          |   ⏱   |                                                                                                                                                                      |
+|                [**Gallery**](Gallery/)                 |          UI           |   ⏱   |                                                                                                                                                                      |
+|               [**CardDeck**](CardDeck/)                |          UI           |   ⏱   |                                                                                                                                                                      |
 
 ### How to Run
 
