@@ -1,5 +1,6 @@
 import './style.css';
 import * as THREE from 'three';
+import torus from './torus';
 
 const ASPECT_RATIO = window.innerWidth / window.innerHeight;
 const INITAL_Z_POSITION = 30;
@@ -18,4 +19,12 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(INITAL_Z_POSITION);
 
-renderer.render(scene, camera);
+scene.add(torus.shape);
+
+const animate = () => {
+  requestAnimationFrame(animate);
+  torus.rotate();
+  renderer.render(scene, camera);
+};
+
+animate();
