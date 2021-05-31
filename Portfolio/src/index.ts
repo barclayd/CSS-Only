@@ -2,6 +2,7 @@ import './style.css';
 import * as THREE from 'three';
 import torus from './torus';
 import { orbitControls } from './orbitControls';
+import { createStars } from './stars';
 
 const ASPECT_RATIO = window.innerWidth / window.innerHeight;
 const INITAL_Z_POSITION = 30;
@@ -29,6 +30,8 @@ scene.add(torus.lightHelper);
 scene.add(torus.gridHelper);
 
 const controls = orbitControls(camera, renderer.domElement);
+
+createStars(scene);
 
 const animate = () => {
   requestAnimationFrame(animate);
