@@ -1,7 +1,7 @@
 import './style.css';
 import * as THREE from 'three';
 import torus from './torus';
-import { orbitControls } from './orbitControls';
+import { moveCamera, orbitControls } from './orbitControls';
 import { createStars } from './stars';
 import { loadImage } from './imageLoader';
 import { headTexture, moonTexture } from './textureMapping';
@@ -42,6 +42,20 @@ scene.add(torus.gridHelper);
 const controls = orbitControls(camera, renderer.domElement);
 
 createStars(scene);
+
+document.body.onscroll = () =>
+  moveCamera((top) => {
+    moonTexture.rotation.x += 0.05;
+    moonTexture.rotation.y += 0.075;
+    moonTexture.rotation.z += 0.05;
+
+    headTexture.rotation.y += 0.01;
+    headTexture.rotation.z += 0.01;
+
+    camera.position.z = top * -0.01;
+    camera.position.x = top * -0.0002;
+    camera.position.y = top * -0.0002;
+  });
 
 const animate = () => {
   requestAnimationFrame(animate);

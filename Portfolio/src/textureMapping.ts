@@ -23,4 +23,8 @@ const moonTexture = new THREE.Mesh(
   new THREE.MeshStandardMaterial({ map: moonImage, normalMap: normalImage }),
 );
 
+moonTexture.position.z = 30;
+
+moonTexture.position.setX(-10);
+
 export { headTexture, moonTexture };
